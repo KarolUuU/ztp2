@@ -1,0 +1,24 @@
+package com.company;
+
+
+
+
+
+
+
+
+public class Main {
+    public static void main(String[] args) {
+
+        imailbox box = new adds(new reads(new index(new mailbox())));
+
+        box.send("moja widomosc");
+        box.send("moja widomosc2");
+        box.send("moja widomosc3");
+
+        System.out.println(box.read());
+        System.out.println(box.read());
+        System.out.println(box.read());
+
+    }
+}
